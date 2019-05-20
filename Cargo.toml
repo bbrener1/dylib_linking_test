@@ -7,6 +7,7 @@ authors = ["boris"]
 rand = "0.6"
 ndarray = "0.12"
 # ndarray-linalg = { version = "0.10" }
-ndarray-linalg = { version = "0.10", features=['openblas'] }
-# openblas-src = { version = "0.7" }
+ndarray-linalg = { version = "0.10" , default-features=false }
+# blas-src = { version = "0.2", default-features=false, features = ["accelerate"] }
+openblas-src = { version = "0.7", default-features=false, features = ['static'] }
 # intel-mkl-src = "0.4"
