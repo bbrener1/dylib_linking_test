@@ -1,6 +1,7 @@
 #[macro_use(array)]
 extern crate ndarray;
 extern crate ndarray_linalg;
+extern crate openblas_src;
 // extern crate intel_mkl_src;
 
 use ndarray::{Array,Ix2};
