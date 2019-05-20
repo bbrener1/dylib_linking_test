@@ -7,4 +7,4 @@ authors = ["boris"]
 rand = "0.6"
 ndarray = "0.12"
 ndarray-linalg = { version = "0.10" }
-intel-mkl-src = "0.4"
+# intel-mkl-src = "0.4"
