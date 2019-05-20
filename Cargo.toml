@@ -1,10 +1,11 @@
 [package]
-name = "n_test"
+name = "dylib_linking_test"
 version = "0.1.0"
 authors = ["boris"]
 
 [dependencies]
 rand = "0.6"
 ndarray = "0.12"
-ndarray-linalg = { version = "0.10" }
-blas-src = { version = "0.2", features = ["openblas"]}
+ndarray-linalg = { version = "0.10", features=["openblas"] }
+# accelerate-src = { version = "0.3"}
+# blas-src = { version = "0.2", features = ["system"]}
